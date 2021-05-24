@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.posts_auto
+  module:
+    - panels
+id: posts_auto-panels_variant-0
+label: 'VMI - Auto - Posts'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: 531c5895-d318-4d62-85cc-54f7dd6e740c
+  label: null
+  weight: 0
+  layout: layout_twocol_bricks
+  layout_settings: {  }
+  page_title: 'VMI - Auto - Posts'
+  storage_type: page_manager
+  storage_id: posts_auto-panels_variant-0
+  builder: ipe
+page: posts_auto
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

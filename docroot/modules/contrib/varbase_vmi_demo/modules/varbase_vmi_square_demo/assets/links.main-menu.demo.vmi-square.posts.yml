@@ -1,0 +1,37 @@
+posts_squar:
+  title: 'Posts - Squar 1:1'
+  link:
+    uri: 'internal:/vmi/square/posts'
+  menu_name: 'main'
+  weight: 310
+  parent: null
+  uuid: 'ae80ce23-1b61-4382-802e-106b5e3c4120'
+  expanded: true
+posts_square_hero:
+  title: 'Posts - Square 1:1 - Hero'
+  link:
+    uri: 'internal:/vmi/square/posts/hero'
+  menu_name: 'main'
+  weight: 311
+  parent: 'menu_link_content:ae80ce23-1b61-4382-802e-106b5e3c4120'
+posts_square_tout:
+  title: 'Posts - Square 1:1 - Tout'
+  link:
+    uri: 'internal:/vmi/square/posts/tout'
+  menu_name: 'main'
+  weight: 312
+  parent: 'menu_link_content:ae80ce23-1b61-4382-802e-106b5e3c4120'
+posts_square_vertical_media:
+  title: 'Posts - Square 1:1 - Vertical Media'
+  link:
+    uri: 'internal:/vmi/square/posts/vertical_media'
+  menu_name: 'main'
+  weight: 313
+  parent: 'menu_link_content:ae80ce23-1b61-4382-802e-106b5e3c4120'
+posts_square_horizontal_media:
+  title: 'Posts - Square 1:1 - Horizontal Media'
+  link:
+    uri: 'internal:/vmi/square/posts/horizontal_media'
+  menu_name: 'main'
+  weight: 314
+  parent: 'menu_link_content:ae80ce23-1b61-4382-802e-106b5e3c4120'

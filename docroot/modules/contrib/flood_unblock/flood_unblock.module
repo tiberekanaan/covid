@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Contains hooks for the flood_unblock module.
+ */
+
+
+/**
+ * Implements hook_requirements().
+ */
+function flood_unblock_requirements($phase) {
+  $description = t('Flood unblock is being replaced by <a href=":url">Flood control</a>. You should uninstall and remove this module.', [':url' => 'https://www.drupal.org/project/flood_control']);
+  $moduleHandler = \Drupal::service('module_handler');
+  if (!$moduleHandler->moduleExists('flood_control')) {
+    $description = t('Flood unblock is being replaced by <a href=":url">Flood control</a>. You should uninstall and remove this module. If you like to continue using the Flood unblock functions, you must download and install Flood control.', [':url' => 'https://www.drupal.org/project/flood_control']);
+  }
+  $requirements = [
+    'flood_unblock' => [
+      'severity' => REQUIREMENT_WARNING,
+      'description' => $description,
+      'value' => t('Flood unblock is being replaced by Flood control'),
+      'title' => t('Flood Unblock'),
+    ],
+  ];
+  return $requirements;
+}
