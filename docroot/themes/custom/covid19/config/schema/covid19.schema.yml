@@ -1,0 +1,4 @@
+# Schema for the configuration files of the covid19.
+covid19.settings:
+  type: bootstrap_barrio.settings
+  label: 'covid19 settings'
