@@ -1,0 +1,38 @@
+//
+// covid19 Variables ovarrides.
+// --------------------------------------------------
+
+
+// #############################################################################
+// Bootstrap library standard variables.
+// #############################################################################
+// All variables which are used in the default bootstrap library.
+// You can change them in covid19 for the bootstrap-variables.sass
+//
+@import "bootstrap-variables"; // Bootstrap custom variables ovarrides in covid19.
+
+
+// #############################################################################
+// Barrio custom variables.
+// #############################################################################
+// All needed custom variables for Bootstrap Barrio theme.
+// You can change them in covid19 in the bootstrap-variables.sass
+//
+@import "barrio-variables"; // Barrio custom variables ovarrides in covid19.
+
+
+// #############################################################################
+// Vartheme BS4 custom variables
+// #############################################################################
+// All needed custom Vartheme bs4 variables
+// You can change them in covid19 in the vartheme_bs4-variables.sass
+//
+@import "vartheme_bs4-variables"; // Vartheme BS4 custom variables ovarrides in covid19.
+
+
+// #############################################################################
+// covid19 custom needed variables
+// #############################################################################
+// Add custom needed covid19 variables.
+// In the generated covid19 not in Vartheme BS4 base theme.
+//

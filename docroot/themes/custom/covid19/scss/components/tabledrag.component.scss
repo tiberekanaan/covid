@@ -1,0 +1,19 @@
+// Table drag component style.
+// -----------------------------------------------------------------------------
+@import "../../node_modules/bootstrap/scss/functions";  // Bootstrap functions.
+@import "../../node_modules/bootstrap/scss/mixins";     // Bootstrap mixins.
+@import "../variables";                   // covid19 variables.
+@import "../mixins";                      // covid19 mixins.
+// -----------------------------------------------------------------------------
+ 
+tr.drag {
+  background-color: #fffff0;
+}
+
+tr.drag-previous {
+  background-color: #ffd;
+}
+
+body div.tabledrag-changed-warning {
+  margin-bottom: ($spacer / 2);
+}
